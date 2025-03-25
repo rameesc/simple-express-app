@@ -2,7 +2,7 @@ const exprees =require("express")
 const app =exprees()
 require("dotenv").config()
 
-const port=process.env.PORT
+const port=process.env.PORT||3000;
 
 
 const users=[
